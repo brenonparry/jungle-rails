@@ -4,10 +4,29 @@
     <h1>Order #<%= @order.id %></h1>
   </header>
 
-  <div class="order-summary jumbotron">
+  <div class="alert alert-success">
     <h4>Thank you for your order!</h4>
+    <h6>Your confirmation was sent to: <%= @order.email %></h6>
   </div>
 
-  <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
-
+  <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <tbody>
+      <% @order.line_items.each do |item| %>
+        <%= render 'item', product: item.product, quantity: item.quantity %>
+      <% end %>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="4">
+            TOTAL:
+          </th>
+          <th>
+            <%= humanized_money_with_symbol @order.total_cents / 100.0 %>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
 </section>
