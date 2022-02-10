@@ -6,13 +6,13 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 _____________________
 
 ### HOMEPAGE
-[JUNGLE_HOMEPAGE](https://github.com/brenonparry/jungle-rails/blob/master/docs/JUNGLE%20-%20Homepage.png)
+!["JUNGLE_HOMEPAGE"](https://github.com/brenonparry/jungle-rails/blob/master/docs/JUNGLE%20-%20Homepage.png)
 
 ### MY CART
-[JUNGLE_CART](https://github.com/brenonparry/jungle-rails/blob/master/docs/JUNGLE-%20MyCart.png)
+!["JUNGLE_CART"](https://github.com/brenonparry/jungle-rails/blob/master/docs/JUNGLE-%20MyCart.png)
 
 ### ADMIN SETTINGS
-[JUNGLE_ADMIN](https://github.com/brenonparry/jungle-rails/blob/master/docs/JUNGLE%20-%20Admin%20Dashboard.png)
+!["JUNGLE_ADMIN"](https://github.com/brenonparry/jungle-rails/blob/master/docs/JUNGLE%20-%20Admin%20Dashboard.png)
 
 ## Additional Steps for Apple M1 Machines
 
